@@ -20,7 +20,7 @@
                             <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}"/>
                         </DataGrid.Columns>
                     </DataGrid>
-                    <GroupBox Header="Supplier Form" HorizontalAlignment="Left" Height="116" Margin="349,4,0,0" VerticalAlignment="Top" Width="427">
+                    <GroupBox Header="Supplier Form" HorizontalAlignment="Left" Height="116" Margin="349,51,0,0" VerticalAlignment="Top" Width="427">
                         <StackPanel HorizontalAlignment="Left" Height="100" Margin="0,10,0,0" VerticalAlignment="Top" Width="200" Orientation="Vertical">
                             <TextBlock Text="Id"></TextBlock>
                             <TextBox Name="txt_Id" IsReadOnly="True" Height="25" Width="50" HorizontalAlignment="Left"></TextBox>
@@ -40,7 +40,11 @@
             </TabItem>
             <TabItem Header="Item">
                 <Grid Background="Aqua">
-                    <DataGrid SelectedCellsChanged="ItemGrid_SelectedCellsChanged" AutoGenerateColumns="False" Background="Aqua" Name="ItemGrid" Margin="0,48,442,0" Height="333" VerticalAlignment="Top" Width="344" IsReadOnly="True">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="14*"/>
+                        <ColumnDefinition Width="379*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid SelectedCellsChanged="ItemGrid_SelectedCellsChanged" AutoGenerateColumns="False" Background="Aqua" Name="ItemGrid" Margin="0,48,442,0" Height="333" VerticalAlignment="Top" Width="344" IsReadOnly="True" Grid.ColumnSpan="2">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"/>
                             <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}"/>
@@ -49,7 +53,7 @@
                             <DataGridTextColumn Header="Supplier" Binding="{Binding Path=Supplier.Name}"/>
                         </DataGrid.Columns>
                     </DataGrid>
-                    <GroupBox Header="Supplier Form" HorizontalAlignment="Left" Height="237" Margin="349,48,0,0" VerticalAlignment="Top" Width="427">
+                    <GroupBox Header="Supplier Form" HorizontalAlignment="Left" Height="237" Margin="320.667,48,0,0" VerticalAlignment="Top" Width="427" Grid.Column="1">
                         <StackPanel HorizontalAlignment="Left" Height="220" Margin="0,10,0,0" VerticalAlignment="Top" Width="200" Orientation="Vertical">
                             <TextBlock Text="Id"></TextBlock>
                             <TextBox Name="txt_IdItem" IsReadOnly="True" Height="25" Width="50" HorizontalAlignment="Left"></TextBox>
@@ -63,19 +67,20 @@
                             <ComboBox Name="cmb_Supplier" Height="25" Width="200" HorizontalAlignment="Left" DisplayMemberPath="Name" SelectedValuePath="Id"></ComboBox>
                         </StackPanel>
                     </GroupBox>
-                    <GroupBox Header="Action" HorizontalAlignment="Left" Height="100" Margin="349,281,0,0" VerticalAlignment="Top" Width="427">
+                    <GroupBox Header="Action" HorizontalAlignment="Left" Height="100" Margin="320.667,281,0,0" VerticalAlignment="Top" Width="427" Grid.Column="1">
                         <StackPanel HorizontalAlignment="Left" Height="80" Margin="0,0,0,-62" VerticalAlignment="Top" Width="425" Orientation="Horizontal">
                             <Button Margin="5,0,0,0" Name="btn_SaveOrEditItem" Content="Save OR Edit" Background="Green" Foreground="White" Height="40" Width="200" Click="Btn_SaveOrEditItem_Click"></Button>
                             <Button Margin="10,0,0,0" Name="btn_DeleteItem" Content="Delete" Background="Red" Foreground="White" Height="40" Width="200" Click="Btn_DeleteItem_Click"></Button>
                         </StackPanel>
                     </GroupBox>
-                    <TextBox x:Name="txt_SearchItem" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193"/>
-                    <Button x:Name="btn_SearchItem" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="227,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_SearchItem_Click"/>
-                    <Button x:Name="btn_Reset" Content="Reset" HorizontalAlignment="Left" Margin="360,27,0,0" VerticalAlignment="Top" Width="416" Click="Btn_reset_item_Click"/>
+                    <TextBox x:Name="txt_SearchItem" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btn_SearchItem" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="198.667,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_SearchItem_Click" Grid.Column="1"/>
+                    <Button x:Name="btn_Reset" Content="Reset" HorizontalAlignment="Left" Margin="331.667,27,0,0" VerticalAlignment="Top" Width="416" Click="Btn_reset_item_Click" Grid.Column="1"/>
                 </Grid>
             </TabItem>
         </TabControl>
         <StackPanel HorizontalAlignment="Left" Height="100" Margin="1003,457,-311,-138" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btn_reset_suppier" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Top" Width="412" Margin="361,51,0,0" Click="Btn_reset_suppier_Click"/>
 
     </Grid>
 </Window>

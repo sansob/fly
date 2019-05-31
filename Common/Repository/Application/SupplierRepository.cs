@@ -17,19 +17,18 @@ namespace Common.Repository.Application
 
         public bool Delete(int id)
         {
-            var pull = Get(id);
-            pull.Delete();
-            myContext.Entry(pull).State = EntityState.Modified;
-            var result = myContext.SaveChanges();
-            if (result > 0)
+            var get = Get(id);
+            if (get != null)
             {
-                status = true;
+                get.Delete();
+                myContext.Entry(get).State = EntityState.Modified;
+                myContext.SaveChanges();
+                return true;
             }
             else
             {
-                return status;
+                return false;
             }
-            return status;
         }
 
         public List<Supplier> Get()

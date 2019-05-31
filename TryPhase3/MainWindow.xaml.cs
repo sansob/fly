@@ -63,15 +63,12 @@ namespace TryPhase3
             var result = false;
             if (string.IsNullOrWhiteSpace(txt_Id.Text))
             {
-                supplierVM.Name = txt_Name.Text;
-                var push = new Supplier(supplierVM);
-                result = iSupplierService.Insert(supplierVM);
+                var suppParam = new SupplierVM(txt_Name.Text);
+                result = iSupplierService.Insert(suppParam);
             }
             else
             {
-                supplierVM.Id = Convert.ToInt32(txt_Id.Text);
-                supplierVM.Name = txt_Name.Text;
-                var push = new Supplier(supplierVM);
+                supplierVM.Update(Convert.ToInt32(txt_Id.Text), txt_Name.Text);
                 result = iSupplierService.Update(supplierVM.Id, supplierVM);
             }
             if (result)
@@ -144,12 +141,12 @@ namespace TryPhase3
 
         private void Btn_DeleteItem_Click(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(txt_Id.Text))
+            if (!string.IsNullOrWhiteSpace(txt_IdItem.Text))
             {
                 var dialogResult = MessageBox.Show("Are you sure?", "Delete Confirmation", MessageBoxButton.YesNo).ToString();
                 if (dialogResult == "Yes")
                 {
-                    var result = iItemService.Delete(Convert.ToInt32(txt_Id.Text));
+                    var result = iItemService.Delete(Convert.ToInt32(txt_IdItem.Text));
                     if (result)
                     {
                         MessageBox.Show("Delete Successfully");
@@ -225,6 +222,12 @@ namespace TryPhase3
             txt_StockItem.Text = "";
             txt_PriceItem.Text = "";
             cmb_Supplier.Text = "";
+        }
+
+        private void Btn_reset_suppier_Click(object sender, RoutedEventArgs e)
+        {
+            txt_Id.Text = "";
+            txt_Name.Text = "";
         }
     }
 }
