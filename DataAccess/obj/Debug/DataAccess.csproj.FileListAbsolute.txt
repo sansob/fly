@@ -15,3 +15,6 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.Migrations.addingModelSupplierItem.resources
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\DataAccess.exe.config
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.pdb
