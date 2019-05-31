@@ -59,7 +59,12 @@ namespace Common.Repository.Application
 
         public List<Item> Search(string param)
         {
-            var get = myContext.Items.Include("Supplier").Where(x => x.Id.ToString().Contains(param) || x.Name.Contains(param) || x.Price.ToString().Contains(param) || x.Stock.ToString().Contains(param)).ToList();
+            var get = myContext.Items.Include("Supplier").Where
+                (x => x.Id.ToString().Contains(param) || 
+                (x.Supplier.Name.Contains(param)) ||
+                 x.Name.Contains(param) ||
+                 x.Price.ToString().Contains(param) ||
+                 x.Stock.ToString().Contains(param)).ToList();
             return get;
         }
 

@@ -80,7 +80,6 @@
             </TabItem>
         </TabControl>
         <StackPanel HorizontalAlignment="Left" Height="100" Margin="1003,457,-311,-138" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btn_reset_suppier" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Top" Width="412" Margin="361,51,0,0" Click="Btn_reset_suppier_Click"/>
 
     </Grid>
 </Window>

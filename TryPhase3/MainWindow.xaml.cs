@@ -74,6 +74,8 @@ namespace TryPhase3
             if (result)
             {
                 MessageBox.Show("Save Successfully");
+                txt_Id.Text = "";
+                txt_Name.Text = "";
             }
             else
             {
@@ -130,6 +132,11 @@ namespace TryPhase3
             if (result)
             {
                 MessageBox.Show("Save Successfully");
+                txt_IdItem.Text = "";
+                txt_NameItem.Text = "";
+                txt_PriceItem.Text = "";
+                txt_StockItem.Text = "";
+                cmb_Supplier.SelectedValue = 0;
             }
             else
             {
@@ -205,7 +212,7 @@ namespace TryPhase3
             catch
             {
                 txt_Id.Text = "";
-                txt_Name.Text = "";
+                txt_NameItem.Text = "";
                 txt_PriceItem.Text = "";
                 txt_StockItem.Text = "";
                 cmb_Supplier.SelectedValue = 0;
