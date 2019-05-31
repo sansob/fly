@@ -166,7 +166,13 @@ namespace TryPhase3
 
         private void Btn_SearchItem_Click(object sender, RoutedEventArgs e)
         {
-            ItemGrid.ItemsSource = iItemService.Search(txt_SearchItem.Text);
+            var itemSearch = txt_SearchItem.Text;
+            GetDataSearchItem(itemSearch);
+        }
+
+        private void GetDataSearchItem(string searchValue)
+        {
+            ItemGrid.ItemsSource = iItemService.Search(searchValue);
         }
 
         #endregion Button Action Item
@@ -192,12 +198,12 @@ namespace TryPhase3
         {
             try
             {
-                object item = SupplierGrid.SelectedItem;
-                txt_IdItem.Text = (SupplierGrid.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text;
-                txt_NameItem.Text = (SupplierGrid.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text;
-                txt_PriceItem.Text = (SupplierGrid.SelectedCells[2].Column.GetCellContent(item) as TextBlock).Text;
-                txt_StockItem.Text = (SupplierGrid.SelectedCells[3].Column.GetCellContent(item) as TextBlock).Text;
-                cmb_Supplier.Text = (SupplierGrid.SelectedCells[4].Column.GetCellContent(item) as TextBlock).Text;
+                object item = ItemGrid.SelectedItem;
+                txt_IdItem.Text = (ItemGrid.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text;
+                txt_NameItem.Text = (ItemGrid.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text;
+                txt_PriceItem.Text = (ItemGrid.SelectedCells[2].Column.GetCellContent(item) as TextBlock).Text;
+                txt_StockItem.Text = (ItemGrid.SelectedCells[3].Column.GetCellContent(item) as TextBlock).Text;
+                cmb_Supplier.Text = (ItemGrid.SelectedCells[4].Column.GetCellContent(item) as TextBlock).Text;
             }
             catch
             {
@@ -210,5 +216,15 @@ namespace TryPhase3
         }
 
         #endregion Grid
+
+
+        private void Btn_reset_item_Click(object sender, RoutedEventArgs e)
+        {
+            txt_IdItem.Text = "";
+            txt_NameItem.Text = "";
+            txt_StockItem.Text = "";
+            txt_PriceItem.Text = "";
+            cmb_Supplier.Text = "";
+        }
     }
 }
