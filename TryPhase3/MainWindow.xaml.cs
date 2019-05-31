@@ -133,6 +133,11 @@ namespace TryPhase3
             if (result)
             {
                 MessageBox.Show("Save Successfully");
+                txt_IdItem.Text = "";
+                txt_NameItem.Text = "";
+                txt_PriceItem.Text = "";
+                txt_StockItem.Text = "";
+                cmb_Supplier.SelectedValue = 0;
             }
             else
             {
@@ -144,12 +149,12 @@ namespace TryPhase3
 
         private void Btn_DeleteItem_Click(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(txt_Id.Text))
+            if (!string.IsNullOrWhiteSpace(txt_IdItem.Text))
             {
                 var dialogResult = MessageBox.Show("Are you sure?", "Delete Confirmation", MessageBoxButton.YesNo).ToString();
                 if (dialogResult == "Yes")
                 {
-                    var result = iItemService.Delete(Convert.ToInt32(txt_Id.Text));
+                    var result = iItemService.Delete(Convert.ToInt32(txt_IdItem.Text));
                     if (result)
                     {
                         MessageBox.Show("Delete Successfully");
@@ -192,17 +197,17 @@ namespace TryPhase3
         {
             try
             {
-                object item = SupplierGrid.SelectedItem;
-                txt_IdItem.Text = (SupplierGrid.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text;
-                txt_NameItem.Text = (SupplierGrid.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text;
-                txt_PriceItem.Text = (SupplierGrid.SelectedCells[2].Column.GetCellContent(item) as TextBlock).Text;
-                txt_StockItem.Text = (SupplierGrid.SelectedCells[3].Column.GetCellContent(item) as TextBlock).Text;
-                cmb_Supplier.Text = (SupplierGrid.SelectedCells[4].Column.GetCellContent(item) as TextBlock).Text;
+                object item = ItemGrid.SelectedItem;
+                txt_IdItem.Text = (ItemGrid.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text;
+                txt_NameItem.Text = (ItemGrid.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text;
+                txt_PriceItem.Text = (ItemGrid.SelectedCells[2].Column.GetCellContent(item) as TextBlock).Text;
+                txt_StockItem.Text = (ItemGrid.SelectedCells[3].Column.GetCellContent(item) as TextBlock).Text;
+                cmb_Supplier.Text = (ItemGrid.SelectedCells[4].Column.GetCellContent(item) as TextBlock).Text;
             }
             catch
             {
-                txt_Id.Text = "";
-                txt_Name.Text = "";
+                txt_IdItem.Text = "";
+                txt_NameItem.Text = "";
                 txt_PriceItem.Text = "";
                 txt_StockItem.Text = "";
                 cmb_Supplier.SelectedValue = 0;
@@ -210,5 +215,16 @@ namespace TryPhase3
         }
 
         #endregion Grid
+
+        private void btn_reset_Click(object sender, RoutedEventArgs e)
+        {
+            txt_IdItem.Text = "";
+            txt_NameItem.Text = "";
+            txt_PriceItem.Text = "";
+            txt_StockItem.Text = "";
+            cmb_Supplier.SelectedValue = 0;
+        }
+
+     
     }
 }
