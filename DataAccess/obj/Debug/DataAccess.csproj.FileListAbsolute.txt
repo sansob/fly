@@ -18,3 +18,14 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\DataAccess.exe.config
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\obj\Debug\DataAccess.exe
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\DataAccess.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\Core.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\Core.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\obj\Debug\DataAccess.Migrations.initial.resources
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache

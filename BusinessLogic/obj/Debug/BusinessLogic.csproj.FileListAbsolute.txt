@@ -19,3 +19,19 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\BusinessLogic\
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\BusinessLogic\obj\Debug\BusinessLogic.exe
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\BusinessLogic.exe.config
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\BusinessLogic.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\Common.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\Core.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\DataAccess.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\Common.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\Core.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\obj\Debug\BusinessLogic.exe
+C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\BusinessLogic\obj\Debug\BusinessLogic.pdb
