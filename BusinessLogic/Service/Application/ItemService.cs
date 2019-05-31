@@ -1,98 +1,73 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Common.Repository;
 using Common.Repository.Application;
 using DataAccess.Models;
 using DataAccess.ViewModels;
 
-namespace BusinessLogic.Service.Application
-{
-    public class ItemService : IItemService
-    {
+namespace BusinessLogic.Service.Application {
+    public class ItemService : IItemService {
         IItemRepository iItemRepository = new ItemRepository();
         bool status = false;
 
-        public bool Delete(int id)
-        {
-            if (string.IsNullOrWhiteSpace(id.ToString()))
-            {
+        public bool Delete(int id) {
+            if (string.IsNullOrWhiteSpace(id.ToString())) {
                 return status;
             }
-            else
-            {
+            else {
                 return iItemRepository.Delete(id);
             }
         }
 
-        public List<Item> Get()
-        {
+        public List<Item> Get() {
             var get = iItemRepository.Get();
             return get;
         }
 
-        public Item Get(int id)
-        {
+        public Item Get(int id) {
             var get = iItemRepository.Get(id);
             return get;
         }
 
-        public bool Insert(ItemVM itemVM)
-        {
-            if (string.IsNullOrWhiteSpace(itemVM.Name))
-            {
+        public bool Insert(ItemVM itemVM) {
+            if (string.IsNullOrWhiteSpace(itemVM.Name)) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Price.ToString()))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Price.ToString())) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Stock.ToString()))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Stock.ToString())) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Supplier_Id.ToString()))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Supplier_Id.ToString())) {
                 return status;
             }
-            else
-            {
+            else {
                 return iItemRepository.Insert(itemVM);
             }
         }
 
-        public List<Item> Search(string param)
-        {
+        public List<Item> Search(string param) {
             var get = iItemRepository.Search(param);
             return get;
         }
 
-        public bool Update(int id, ItemVM itemVM)
-        {
-            if (string.IsNullOrWhiteSpace(itemVM.Id.ToString()))
-            {
+        public bool Update(int id, ItemVM itemVM) {
+            if (string.IsNullOrWhiteSpace(itemVM.Id.ToString())) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Name))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Name)) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Price.ToString()))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Price.ToString())) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Stock.ToString()))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Stock.ToString())) {
                 return status;
             }
-            else if (string.IsNullOrWhiteSpace(itemVM.Supplier_Id.ToString()))
-            {
+            else if (string.IsNullOrWhiteSpace(itemVM.Supplier_Id.ToString())) {
                 return status;
             }
-            else
-            {
+            else {
                 return iItemRepository.Update(id, itemVM);
             }
         }
