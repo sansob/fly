@@ -9,5 +9,6 @@ namespace DataAccess.ViewModels
     class Bootcamp
     {
         // ini komentar dari extraflake
+        // ini komentar dari lendon
     }
 }
