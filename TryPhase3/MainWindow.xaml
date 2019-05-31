@@ -36,6 +36,7 @@
                     </GroupBox>
                     <TextBox x:Name="txt_Search" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193"/>
                     <Button x:Name="btn_Search" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="227,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_Search_Click"/>
+                    <Button x:Name="btn_Riset" Content="Riset" HorizontalAlignment="Left" Margin="528,138,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.288,0.26" Click="btn_Riset_Click" AutomationProperties.IsColumnHeader="True" Height="28"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Item">
@@ -63,7 +64,7 @@
                             <ComboBox Name="cmb_Supplier" Height="25" Width="200" HorizontalAlignment="Left" DisplayMemberPath="Name" SelectedValuePath="Id"></ComboBox>
                         </StackPanel>
                     </GroupBox>
-                    <GroupBox Header="Action" HorizontalAlignment="Left" Height="100" Margin="349,281,0,0" VerticalAlignment="Top" Width="427">
+                    <GroupBox Header="Action" HorizontalAlignment="Left" Height="89" Margin="349,292,0,0" VerticalAlignment="Top" Width="427">
                         <StackPanel HorizontalAlignment="Left" Height="80" Margin="0,0,0,-62" VerticalAlignment="Top" Width="425" Orientation="Horizontal">
                             <Button Margin="5,0,0,0" Name="btn_SaveOrEditItem" Content="Save OR Edit" Background="Green" Foreground="White" Height="40" Width="200" Click="Btn_SaveOrEditItem_Click"></Button>
                             <Button Margin="10,0,0,0" Name="btn_DeleteItem" Content="Delete" Background="Red" Foreground="White" Height="40" Width="200" Click="Btn_DeleteItem_Click"></Button>
@@ -71,6 +72,7 @@
                     </GroupBox>
                     <TextBox x:Name="txt_SearchItem" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193"/>
                     <Button x:Name="btn_SearchItem" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="227,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_SearchItem_Click"/>
+                    <Button x:Name="btn_RisetItem" Content="Riset" HorizontalAlignment="Left" Margin="527,259,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="btn_RisetItem_Click"/>
                 </Grid>
             </TabItem>
         </TabControl>

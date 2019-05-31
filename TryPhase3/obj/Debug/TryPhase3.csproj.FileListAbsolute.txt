@@ -30,17 +30,15 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\Debug\Common.exe.config
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\Debug\Core.pdb
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\Debug\Core.exe.config
-C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\TryPhase3.exe.config
-C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.exe
-C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.pdb
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\TryPhase3.exe
-C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\TryPhase3.pdb
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\BusinessLogic.exe
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\Core.exe
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\DataAccess.exe
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\EntityFramework.dll
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\Common.exe
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\TryPhase3.exe.config
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\TryPhase3.pdb
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\BusinessLogic.pdb
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\Core.pdb
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\bin\Debug\DataAccess.pdb
@@ -56,3 +54,5 @@ C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\MainWin
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.g.resources
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.Properties.Resources.resources
 C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.exe
+C:\Users\Lenovo\Documents\Visual Studio 2015\Git\fly\TryPhase3\obj\Debug\TryPhase3.pdb

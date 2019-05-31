@@ -84,6 +84,24 @@ namespace TryPhase3
             }
             LoadGrid();
             LoadCombo();
+            ClearSupplier();
+
+
+        }
+
+        private void ClearSupplier()
+        {
+            this.txt_Id.Text = "";
+            this.txt_Name.Text = "";
+        }
+
+        private void ClearItem()
+        {
+            this.txt_IdItem.Text = "";
+            this.txt_NameItem.Text = "";
+            this.txt_StockItem.Text = "";
+            this.txt_PriceItem.Text = "";
+            this.cmb_Supplier.Text = "";
         }
 
         private void Btn_Delete_Click(object sender, RoutedEventArgs e)
@@ -106,6 +124,7 @@ namespace TryPhase3
             }
             LoadGrid();
             LoadCombo();
+            ClearSupplier();
         }
 
         private void Btn_Search_Click(object sender, RoutedEventArgs e)
@@ -140,6 +159,7 @@ namespace TryPhase3
             }
             LoadGrid();
             LoadCombo();
+            ClearItem();
         }
 
         private void Btn_DeleteItem_Click(object sender, RoutedEventArgs e)
@@ -162,6 +182,7 @@ namespace TryPhase3
             }
             LoadGrid();
             LoadCombo();
+            ClearItem();
         }
 
         private void Btn_SearchItem_Click(object sender, RoutedEventArgs e)
@@ -192,12 +213,12 @@ namespace TryPhase3
         {
             try
             {
-                object item = SupplierGrid.SelectedItem;
-                txt_IdItem.Text = (SupplierGrid.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text;
-                txt_NameItem.Text = (SupplierGrid.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text;
-                txt_PriceItem.Text = (SupplierGrid.SelectedCells[2].Column.GetCellContent(item) as TextBlock).Text;
-                txt_StockItem.Text = (SupplierGrid.SelectedCells[3].Column.GetCellContent(item) as TextBlock).Text;
-                cmb_Supplier.Text = (SupplierGrid.SelectedCells[4].Column.GetCellContent(item) as TextBlock).Text;
+                object item = ItemGrid.SelectedItem;
+                txt_IdItem.Text = (ItemGrid.SelectedCells[0].Column.GetCellContent(item) as TextBlock).Text;
+                txt_NameItem.Text = (ItemGrid.SelectedCells[1].Column.GetCellContent(item) as TextBlock).Text;
+                txt_PriceItem.Text = (ItemGrid.SelectedCells[2].Column.GetCellContent(item) as TextBlock).Text;
+                txt_StockItem.Text = (ItemGrid.SelectedCells[3].Column.GetCellContent(item) as TextBlock).Text;
+                cmb_Supplier.Text = (ItemGrid.SelectedCells[4].Column.GetCellContent(item) as TextBlock).Text;
             }
             catch
             {
@@ -210,5 +231,21 @@ namespace TryPhase3
         }
 
         #endregion Grid
+
+        private void btn_Riset_Click(object sender, RoutedEventArgs e)
+        {
+            this.txt_Id.Text = "";
+            this.txt_Name.Text = "";
+
+        }
+
+        private void btn_RisetItem_Click(object sender, RoutedEventArgs e)
+        {
+            this.txt_IdItem.Text = "";
+            this.txt_NameItem.Text = "";
+            this.txt_StockItem.Text = "";
+            this.txt_PriceItem.Text = "";
+            this.cmb_Supplier.Text = "";
+        }
     }
 }
