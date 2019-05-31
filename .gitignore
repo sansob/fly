@@ -10,3 +10,23 @@ DataAccess/obj/
 Core/obj/
 
 TryPhase3/obj/
+
+BusinessLogic/App\.config
+
+Common/App\.config
+
+Core/App\.config
+
+DataAccess/App\.config
+
+TryPhase3/App\.config
+
+BusinessLogic/bin/Debug/
+
+Common/bin/Debug/
+
+Core/bin/Debug/
+
+DataAccess/bin/Debug/
+
+TryPhase3/bin/Debug/
