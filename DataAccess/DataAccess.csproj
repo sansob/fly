@@ -51,9 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201905280838029_addingModelSupplierItem.cs" />
-    <Compile Include="Migrations\201905280838029_addingModelSupplierItem.Designer.cs">
-      <DependentUpon>201905280838029_addingModelSupplierItem.cs</DependentUpon>
+    <Compile Include="Migrations\201905310830555_initial.cs" />
+    <Compile Include="Migrations\201905310830555_initial.Designer.cs">
+      <DependentUpon>201905310830555_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Item.cs" />
@@ -75,8 +75,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201905280838029_addingModelSupplierItem.resx">
-      <DependentUpon>201905280838029_addingModelSupplierItem.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905310830555_initial.resx">
+      <DependentUpon>201905310830555_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
