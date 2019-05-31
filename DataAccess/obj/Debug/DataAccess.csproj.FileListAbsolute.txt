@@ -1,0 +1,17 @@
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\DataAccess.exe.config
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\Core.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\Core.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\Core.exe.config
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.Migrations.addingModelSupplierItem.resources
+C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
