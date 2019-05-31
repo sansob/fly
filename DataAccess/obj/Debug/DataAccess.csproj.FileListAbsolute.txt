@@ -29,3 +29,4 @@ C:\Users\Denis\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\EntityF
 C:\Users\Denis\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Denis\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.Migrations.Initial.resources
 C:\Users\Denis\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+C:\Users\Denis\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.Migrations.MyTable.resources
