@@ -10,3 +10,15 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\Core\obj\Debug
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\Core\obj\Debug\Core.exe
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\Core\obj\Debug\Core.pdb
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\Core.exe.config
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\Core.exe
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\Core.pdb
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\EntityFramework.dll
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\EntityFramework.xml
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\obj\Debug\Core.exe
+C:\Users\Irfan\Documents\Visual Studio 2017\Git\fly\Core\obj\Debug\Core.pdb
