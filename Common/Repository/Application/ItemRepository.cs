@@ -30,7 +30,7 @@ namespace Common.Repository.Application
 
         public List<Item> Get()
         {
-            var get = myContext.Items.Where(x => x.IsDelete == false).ToList();
+            var get = myContext.Items.Include("Supplier").Where(x => x.IsDelete == false).ToList();
             return get;
         }
 
@@ -56,7 +56,7 @@ namespace Common.Repository.Application
 
         public List<Item> Search(string param)
         {
-            var get = myContext.Items.Where(x => x.Id.ToString().Contains(param) || x.Name.Contains(param) || x.Price.ToString().Contains(param) || x.Stock.ToString().Contains(param)).ToList();
+            var get = myContext.Items.Include("Supplier").Where(x => x.Id.ToString().Contains(param) || x.Name.Contains(param) || x.Price.ToString().Contains(param) || x.Stock.ToString().Contains(param) || x.Supplier.Name.Contains(param)).ToList();
             return get;
         }
 

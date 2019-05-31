@@ -30,3 +30,6 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\Debug\Common.exe.config
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\Debug\Core.pdb
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\TryPhase3\bin\Debug\Core.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\Git\fly\TryPhase3\bin\Debug\TryPhase3.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\Git\fly\TryPhase3\obj\Debug\TryPhase3.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\Git\fly\TryPhase3\obj\Debug\TryPhase3.pdb

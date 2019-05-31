@@ -82,6 +82,9 @@ namespace TryPhase3
             {
                 MessageBox.Show("Save Fail");
             }
+            txt_Id.Text = "";
+	    txt_Name.Text = "";
+
             LoadGrid();
             LoadCombo();
         }
@@ -138,18 +141,25 @@ namespace TryPhase3
             {
                 MessageBox.Show("Save Fail");
             }
+
+            txt_IdItem.Text = "";
+	    txt_NameItem.Text = "";
+  	    txt_PriceItem.Text = "";
+	    txt_StockItem.Text = "";
+	    cmb_Supplier.Text = "";
+
             LoadGrid();
             LoadCombo();
         }
 
         private void Btn_DeleteItem_Click(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(txt_Id.Text))
+            if (!string.IsNullOrWhiteSpace(txt_IdItem.Text))
             {
                 var dialogResult = MessageBox.Show("Are you sure?", "Delete Confirmation", MessageBoxButton.YesNo).ToString();
                 if (dialogResult == "Yes")
                 {
-                    var result = iItemService.Delete(Convert.ToInt32(txt_Id.Text));
+                    var result = iItemService.Delete(Convert.ToInt32(txt_IdItem.Text));
                     if (result)
                     {
                         MessageBox.Show("Delete Successfully");
@@ -164,10 +174,21 @@ namespace TryPhase3
             LoadCombo();
         }
 
+        private void Btn_ResetItem_Click(object sender, RoutedEventArgs e)
+        {
+            txt_IdItem.Text = "";
+	    txt_NameItem.Text = "";
+  	    txt_PriceItem.Text = "";
+	    txt_StockItem.Text = "";
+	    cmb_Supplier.Text = "";
+           
+        }
+
         private void Btn_SearchItem_Click(object sender, RoutedEventArgs e)
         {
             ItemGrid.ItemsSource = iItemService.Search(txt_SearchItem.Text);
         }
+
 
         #endregion Button Action Item
 
@@ -201,8 +222,8 @@ namespace TryPhase3
             }
             catch
             {
-                txt_Id.Text = "";
-                txt_Name.Text = "";
+                txt_IdItem.Text = "";
+                txt_NameItem.Text = "";
                 txt_PriceItem.Text = "";
                 txt_StockItem.Text = "";
                 cmb_Supplier.SelectedValue = 0;

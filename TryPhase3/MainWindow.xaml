@@ -67,7 +67,8 @@
                         <StackPanel HorizontalAlignment="Left" Height="80" Margin="0,0,0,-62" VerticalAlignment="Top" Width="425" Orientation="Horizontal">
                             <Button Margin="5,0,0,0" Name="btn_SaveOrEditItem" Content="Save OR Edit" Background="Green" Foreground="White" Height="40" Width="200" Click="Btn_SaveOrEditItem_Click"></Button>
                             <Button Margin="10,0,0,0" Name="btn_DeleteItem" Content="Delete" Background="Red" Foreground="White" Height="40" Width="200" Click="Btn_DeleteItem_Click"></Button>
-                        </StackPanel>
+                            <Button Margin="15,0,0,0" Name="btn_ResetItem" Content="Reset" Background="Yellow" Foreground="White" Height="40" Width="200" Click="Btn_ResetItem_Click"></Button>
+			</StackPanel>
                     </GroupBox>
                     <TextBox x:Name="txt_SearchItem" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193"/>
                     <Button x:Name="btn_SearchItem" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="227,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_SearchItem_Click"/>
