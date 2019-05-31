@@ -30,7 +30,7 @@ namespace Common.Repository.Application
 
         public List<Item> Get()
         {
-            var get = myContext.Items.Where(x => x.IsDelete == false).ToList();
+            var get = myContext.Items.Include("Supplier").Where(x => x.IsDelete == false).ToList();
             return get;
         }
 

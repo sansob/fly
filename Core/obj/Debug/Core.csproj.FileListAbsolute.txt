@@ -17,6 +17,5 @@ C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\bin\Debug\EntityFra
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\bin\Debug\EntityFramework.xml
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\obj\Debug\Core.exe
 C:\Users\MY LAPTOP\Documents\Visual Studio 2015\GIT\fly\Core\obj\Debug\Core.pdb

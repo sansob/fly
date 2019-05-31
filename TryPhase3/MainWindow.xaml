@@ -36,6 +36,7 @@
                     </GroupBox>
                     <TextBox x:Name="txt_Search" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193"/>
                     <Button x:Name="btn_Search" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="227,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_Search_Click"/>
+                    <Button x:Name="btn_reset_supplier" Content="reset" HorizontalAlignment="Left" Margin="349,125,0,0" VerticalAlignment="Top" Width="75" Click="btn_reset_supplier_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Item">
@@ -71,6 +72,7 @@
                     </GroupBox>
                     <TextBox x:Name="txt_SearchItem" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193"/>
                     <Button x:Name="btn_SearchItem" Background="Beige" Content="Search" HorizontalAlignment="Left" Margin="227,13,0,0" VerticalAlignment="Top" Width="117" Click="Btn_SearchItem_Click"/>
+                    <Button x:Name="btn_riset_item" Content="Riset" HorizontalAlignment="Left" Margin="359,243,0,0" VerticalAlignment="Top" Width="75" Click="btn_riset_item_Click"/>
                 </Grid>
             </TabItem>
         </TabControl>
