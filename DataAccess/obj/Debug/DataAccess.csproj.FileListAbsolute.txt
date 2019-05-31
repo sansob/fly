@@ -16,8 +16,6 @@ C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.Migrations.addingModelSupplierItem.resources
 C:\Users\NaufalAj\Documents\Visual Studio 2017\Projects\TryPhase3\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\DataAccess.exe.config
-C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.exe
-C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\DataAccess.exe
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\DataAccess.pdb
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\Core.exe
@@ -29,3 +27,5 @@ C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\bin\Debug\EntityFr
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.Migrations.initial.resources
 C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\vais\Documents\Visual Studio 2015\Git\fly\DataAccess\obj\Debug\DataAccess.pdb
